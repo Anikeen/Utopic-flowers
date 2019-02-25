@@ -1,0 +1,68 @@
+.intro{
+	background: #e1e1e1;
+}
+.introWrapper{
+	box-sizing: border-box;	
+	margin: 0 20px;
+	padding: 50px 30px 20px;
+	border-bottom: 1px solid #e1e1e1;
+	background: #fff;
+	h2{
+		font-size: 1.375em;
+		font-weight: 100;
+		color: #666666;
+		line-height: 2rem;
+	}
+	p{
+		font-size: .8125em;
+		color: #999999;
+	}
+}
+.leftSide{
+	float: left;
+	width: 50%;	
+}
+.ceo{
+	margin: 30px 0;	
+	img{
+		float: left;
+		margin-right: 15px;
+	}	
+	h3{
+		font-size: 1em;
+	}
+	p{
+		clear: both;
+		padding-top: 15px;
+	}
+}
+.rightSide{
+	
+
+}
+.teammate{
+	display: flex;	
+	margin: 30px 0 60px;
+	h3{
+		font-size: 1em;
+		font-weight: 600;
+		padding: 0 0 15px;
+	}
+}
+.teammateImageHolder{
+	position: relative;
+	overflow: hidden;
+	min-width: 110px;
+	height: 110px;
+	margin-right: 10px;
+	img{
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		object-fit: cover;
+		width: 100%;
+		height: 110px;
+	}
+}

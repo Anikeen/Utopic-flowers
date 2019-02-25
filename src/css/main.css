@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+	font-family: Georgia, sans-serif;
+	line-height: 1.25rem;
+	font-size: 100%;
+}
+.wrapper{    
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;	
+}

@@ -1,0 +1,59 @@
+@media screen and (max-width: 800px){
+	.leftSide, .rightSide{
+		float: none;
+		width: 100%;
+	}
+	.leftSide{
+		margin-bottom: 50px;
+	}
+	.latestWorkBlock{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.footerBlock{
+		width: calc(50% - 20px);
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 650px){
+	body{
+		font-size: 120%;
+	}
+	.header{
+		text-align: center;
+	}
+	.logotype{
+		float: none;		
+		margin-bottom: 20px;
+		span{
+			display: block;
+		}
+	}
+	.search{
+		float: none;
+		padding: 0;
+	}
+	.logo{
+		margin: 0 0 15px;
+	}	
+	.twitter{
+		text-align: center;
+		img{
+			float: none;
+		}
+		p{
+			line-height: 1.5rem;
+			padding-top: 20px;
+		}
+	}
+	.footerBlock{
+		width: 100%;
+	}
+	.copyright{
+		text-align: center;
+	}
+	.left, .right{
+		float: none;
+		display: block;
+	}
+}
