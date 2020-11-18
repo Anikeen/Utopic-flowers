@@ -1,0 +1,30 @@
+.service {
+	display: flex;
+	padding: 50px 30px;
+	margin: 0 -15px;
+	&__block {
+		flex-basis: 33.333333%;
+		padding: 0 15px;
+	}
+}
+.service-card {
+	display: flex;
+	&__title {
+		font-size: 1.25em;
+		font-weight: 100;
+		color: #894aa3;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	&__text {
+		font-size: .8125em;
+		color: #666;
+	}
+	&__img {
+		display: block;
+		width: 48px;
+		height: 48px;
+		margin-right: 20px;
+		object-fit: cover;
+	}
+}

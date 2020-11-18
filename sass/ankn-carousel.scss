@@ -1,0 +1,59 @@
+.ankn-carousel {
+  position: relative;
+  overflow: hidden;
+  &__stage {
+    display: flex;
+    transition: transform .4s;
+  }
+  &__arrow-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__nav-dots {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    z-index: 1;
+  }
+  &__dot {
+    display: inline-block;	
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border: 3px solid #333;
+    border-radius: 50%;
+    background-color: #333;
+    &.active {
+      background-color: #fff;
+    }
+  }
+}
+.ankn-carousel__next-arrow,
+.ankn-carousel__prev-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+
+  width: 50px;
+  height: 50px;
+
+  background-color: inherit;
+  background-repeat: no-repeat;
+  opacity:  .7;
+  cursor: pointer;
+  transition: opacity .4s;
+  &:hover {
+    opacity: 1;
+  }
+}
+.ankn-carousel__next-arrow {
+  right: 30px;
+  background-image: url("../img/next-arrow.png");
+}
+.ankn-carousel__prev-arrow {
+  left: 30px;
+  background-image: url("../img/prev-arrow.png");
+}
